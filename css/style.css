@@ -5463,7 +5463,6 @@ a.close.disabled {
   border: 2px solid rgba(0, 0, 0, 0.2);
   outline: 0;
 }
-
 .modal-backdrop {
   position: fixed;
   top: 0;
@@ -9542,6 +9541,9 @@ a.text-dark:hover, a.text-dark:focus {
 
 .section-title {
   margin-bottom: 30px;
+}
+.popup {
+  cursor: pointer;
 }
 
 .section-title::before {
