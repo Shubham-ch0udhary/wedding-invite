@@ -380,100 +380,53 @@
             </div>
             <div class="row">
                 <div class="col-12 text-center mb-2">
-                    <ul class="list-inline mb-4" id="myTabs">
-                        <a class="btn btn-outline-primary font-weight-bold m-1 py-2 px-4 active" data-toggle="tab" href="#tab1">Ladkewale</a>
-                        <a class="btn btn-outline-primary font-weight-bold m-1 py-2 px-4" data-toggle="tab" href="#tab2">Ladkiwale</a>
+                    <ul class="list-inline mb-4" id="portfolio-flters">
+                        <li class="btn btn-outline-primary font-weight-bold m-1 py-2 px-4" data-filter=".first">Ladkewale</li>
+                        <li class="btn btn-outline-primary font-weight-bold m-1 py-2 px-4" data-filter=".second">Ladkiwale</li>
                     </ul>
                 </div>
             </div>
-            <div class="row portfolio-container" id="tab1">
-                <div id="tab1">
-                    <div class="col-lg-4 col-md-6 mb-4 portfolio-item">
-                        <div class="position-relative mb-2">
-                            <img class="img-fluid w-100" src="img/haldi-1.jpg" alt="">
-                            <div class="bg-secondary text-center p-4">
-                                <h4 class="mb-3">Traditional Haldi</h4>
-                                <p>23rd Feb, 3 PM onwards</p>
-                                <p class="text-uppercase">Darbhanga, Bihar</p>
-                                <div class="d-inline-block">
-                                    <a class="mx-2" href="https://maps.app.goo.gl/vWbkVJLjy29MxhHP8?g_st=iw" target="_blank"><i class="fa fa-map-marker"></i><p>Get Directions</p></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 mb-4 portfolio-item">
-                        <div class="position-relative mb-2">
-                            <img class="img-fluid w-100" src="img/matkor-1.jpg" alt="">
-                            <div class="bg-secondary text-center p-4">
-                                <h4 class="mb-3">Matkor & Dinner</h4>
-                                <p>28th Feb, 7 PM onwards</p>
-                                <p class="text-uppercase">Darbhanga, Bihar</p>
-                                <div class="d-inline-block">
-                                    <a class="mx-2" href="https://maps.app.goo.gl/vWbkVJLjy29MxhHP8?g_st=iw" target="_blank"><i class="fa fa-map-marker"></i><p>Get Directions</p></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 mb-4 portfolio-item">
-                        <div class="position-relative mb-2">
-                            <img class="img-fluid w-100" src="img/reception-1.jpg" alt="">
-                            <div class="bg-secondary text-center p-4">
-                                <h4 class="mb-3">Reception & Dinner</h4>
-                                <p>4th Mar, 7 PM onwards</p>
-                                <p class="text-uppercase">Laxmeshwar Library Field</p>
-                                <div class="d-inline-block">
-                                    <a class="mx-2" href="https://maps.app.goo.gl/5VWDUbyRYkZe18cK9?g_st=iw" target="_blank"><i class="fa fa-map-marker"></i><p>Get Directions</p></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div id="tab2">
-                        <div class="col-lg-4 col-md-6 mb-4 portfolio-item">
-                            <div class="position-relative mb-2">
-                                <img class="img-fluid w-100" src="img/aibodobhaat.jpg" alt="">
-                                <div class="bg-secondary text-center p-4">
-                                    <h4 class="mb-3">Aibodobhaat</h4>
-                                    <p>1st Mar, 8 AM onwards</p>
-                                    <p class="text-uppercase">Garh Panchkot Resort</p>
-                                    <div class="d-inline-block">
-                                        <a class="mx-2" href="https://maps.app.goo.gl/FwoCdRcibMwB385z8?g_st=iw" target="_blank"><i class="fa fa-map-marker"></i><p>Get Directions</p></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 mb-4 portfolio-item">
-                            <div class="position-relative mb-2">
-                                <img class="img-fluid w-100" src="img/ashtamangala.jpg" alt="">
-                                <div class="bg-secondary text-center p-4">
-                                    <h4 class="mb-3">Ashtamangala</h4>
-                                    <p>9th Mar, 1 PM onwards</p>
-                                    <p class="text-uppercase">Adra, Bengal</p>
-                                    <div class="d-inline-block">
-                                        <a class="mx-2" href="https://maps.app.goo.gl/gnHR1kMaRzp6KWp97?g_st=iw" target="_blank"><i class="fa fa-map-marker"></i><p>Get Directions</p></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 mb-4 portfolio-item">
-                            <div class="position-relative mb-2">
-                                <img class="img-fluid w-100" src="img/thakur-seva.jpg" alt="">
-                                <div class="bg-secondary text-center p-4">
-                                    <h4 class="mb-3">Thakur Seva</h4>
-                                    <p>24th Mar, 1 PM onwards</p>
-                                    <p class="text-uppercase">Bankura, Bengal</p>
-                                    <div class="d-inline-block">
-                                        <a class="mx-2" href="https://maps.app.goo.gl/iLTGcsksdQjKC24GA?g_st=iw" target="_blank"><i class="fa fa-map-marker"></i><p>Get Directions</p></a>
-                                    </div>
-                                </div>
+            <div class="row portfolio-container">
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
+                    <div class="position-relative mb-2">
+                        <img class="img-fluid w-100" src="img/haldi-1.jpg" alt="">
+                        <div class="bg-secondary text-center p-4">
+                            <h4 class="mb-3">Traditional Haldi</h4>
+                            <p>23rd Feb, 3 PM onwards</p>
+                            <p class="text-uppercase">Darbhanga, Bihar</p>
+                            <div class="d-inline-block">
+                                <a class="mx-2" href="https://maps.app.goo.gl/vWbkVJLjy29MxhHP8?g_st=iw" target="_blank"><i class="fa fa-map-marker"></i><p>Get Directions</p></a>
                             </div>
                         </div>
                     </div>
                 </div>
-                
-                <!--  -->
-                
-                <!-- <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
+                    <div class="position-relative mb-2">
+                        <img class="img-fluid w-100" src="img/aibodobhaat.jpg" alt="">
+                        <div class="bg-secondary text-center p-4">
+                            <h4 class="mb-3">Aibodobhaat</h4>
+                            <p>1st Mar, 8 AM onwards</p>
+                            <p class="text-uppercase">Garh Panchkot Resort</p>
+                            <div class="d-inline-block">
+                                <a class="mx-2" href="https://maps.app.goo.gl/FwoCdRcibMwB385z8?g_st=iw" target="_blank"><i class="fa fa-map-marker"></i><p>Get Directions</p></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
+                    <div class="position-relative mb-2">
+                        <img class="img-fluid w-100" src="img/matkor-1.jpg" alt="">
+                        <div class="bg-secondary text-center p-4">
+                            <h4 class="mb-3">Matkor & Dinner</h4>
+                            <p>28th Feb, 7 PM onwards</p>
+                            <p class="text-uppercase">Darbhanga, Bihar</p>
+                            <div class="d-inline-block">
+                                <a class="mx-2" href="https://maps.app.goo.gl/vWbkVJLjy29MxhHP8?g_st=iw" target="_blank"><i class="fa fa-map-marker"></i><p>Get Directions</p></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
                     <div class="position-relative mb-2">
                         <img class="img-fluid w-100" src="img/ashtamangala.jpg" alt="">
                         <div class="bg-secondary text-center p-4">
@@ -485,9 +438,21 @@
                             </div>
                         </div>
                     </div>
-                </div> -->
-                
-                <!-- <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
+                    <div class="position-relative mb-2">
+                        <img class="img-fluid w-100" src="img/reception-1.jpg" alt="">
+                        <div class="bg-secondary text-center p-4">
+                            <h4 class="mb-3">Reception & Dinner</h4>
+                            <p>4th Mar, 7 PM onwards</p>
+                            <p class="text-uppercase">Laxmeshwar Library Field</p>
+                            <div class="d-inline-block">
+                                <a class="mx-2" href="https://maps.app.goo.gl/5VWDUbyRYkZe18cK9?g_st=iw" target="_blank"><i class="fa fa-map-marker"></i><p>Get Directions</p></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
                     <div class="position-relative mb-2">
                         <img class="img-fluid w-100" src="img/thakur-seva.jpg" alt="">
                         <div class="bg-secondary text-center p-4">
@@ -499,7 +464,7 @@
                             </div>
                         </div>
                     </div>
-                </div> -->
+                </div>
             </div>
         </div>
     </div>
